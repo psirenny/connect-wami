@@ -3,13 +3,16 @@
     "temp": "*"
   },
   "name": "connect-wami",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "connect-wami\r ============",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psirenny/connect-wami.git"
+  },
   "keywords": [
     "connect",
     "middleware",
@@ -17,5 +20,11 @@
     "recorder"
   ],
   "author": "psirenny",
-  "license": "BSD"
+  "license": "BSD",
+  "gitHead": "e97a272d216eb4071e5fd2f48626bd722c1141b9",
+  "readmeFilename": "README.md",
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/psirenny/connect-wami/issues"
+  }
 }
