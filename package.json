@@ -1,30 +1,29 @@
 {
+  "author": "psirenny <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/connect-wami/issues"
+  },
   "dependencies": {
     "temp": "*"
   },
-  "name": "connect-wami",
-  "version": "0.1.0",
-  "description": "connect-wami\r ============",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/psirenny/connect-wami.git"
-  },
+  "description": "Connect middleware for WAMI Recorder.",
+  "gitHead": "e97a272d216eb4071e5fd2f48626bd722c1141b9",
   "keywords": [
     "connect",
     "middleware",
     "wami",
     "recorder"
   ],
-  "author": "psirenny",
-  "license": "BSD",
-  "gitHead": "e97a272d216eb4071e5fd2f48626bd722c1141b9",
+  "main": "index.js",
+  "name": "connect-wami",
+  "license": "MIT",
   "readmeFilename": "README.md",
-  "devDependencies": {},
-  "bugs": {
-    "url": "https://github.com/psirenny/connect-wami/issues"
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psirenny/connect-wami.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.0"
 }
