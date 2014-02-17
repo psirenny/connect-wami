@@ -1,4 +1,5 @@
-var temp = require('temp');
+var path = require('path')
+  , temp = require('temp');
 
 module.exports = function () {
   return function (req, res, next) {
@@ -14,8 +15,9 @@ module.exports = function () {
       }
     };
 
-    var stream = temp.createWriteStream({suffix: '.wav'});
+    var stream = temp.createWriteStream();
     req.files.audio.path = stream.path;
+    req.files.audio.name = path.basename(stream.path) + '.wav';
     req.pipe(stream);
     req.on('end', next);
   };
